@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+}
+body{
+    direction: rtl;
+   
+  }
+.cont .header{
+    background-color: rgba(35, 34, 34, 0.822);
+    color: blanchedalmond;
+    min-height: 49px;
+    padding-top: 5px;
+    font-size: 16px;
+   
+    border-bottom: 5px solid black;
+    
+ }
+ul{
+    padding: 0;
+    margin: 0;
+}
+.cont .header{
+   background-color: rgba(31, 30, 30, 0.822);
+   color: blanchedalmond;
+   min-height: 49px;
+   padding-top: 5px;
+   font-size: 16px;
+  
+   border-bottom: 5px solid black;
+   
+}
+
+.header li {
+    display: inline;
+    padding: 10px 10px;
+    float:right;
+   
+    
+}
+.nav li{
+    float: right;
+    
+}
+.header .logo img{
+    width: 65px;
+    height: 44px;
+   margin-bottom: 10px;
+   padding-left: 10px;
+    float: left;
+   
+
+}
+
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.header a:hover{
+   
+    background-color: rgba(245, 5, 97, 0.6);
+   border-radius: 5px;
+   padding: 5px;
+  
+}
+.cantainer{
+    background-image:url(../image/book.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width: 1009px;
+    height: 540px;
+    position: relative;
+   
+}
+.text_box h1{
+    margin-right: 200px;
+    padding-top: 39px;
+    font-size: 45px;
+}
+.text{
+    padding-right: 50px;
+    padding-top: 55px;
+    font-size: 25px;
+}

@@ -1,0 +1,304 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    direction: rtl;
+    background-color: rgba(19, 19, 99, 0.824);
+    
+    
+}
+a{
+    list-style: none;
+}
+.cantainer{
+    width: 100%;
+    height: 100vh;
+   
+    background-size:cover;
+    background-position: center;
+    padding: 0 8%;
+    box-sizing: border-box;
+     position: relative;
+
+ }
+ nav {
+    display:flex;
+    width: 100px;
+    height: 299px;
+    padding: 5px 0;
+    align-items: center;
+    flex-wrap: wrap;
+
+ }
+ nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right: 30px;
+   
+ }
+ nav ul li{
+ display:inline-block;
+  list-style: none;
+  
+ }
+ nav ul li a{
+color: rgb(250, 247, 247);
+text-decoration: none;
+position: relative;
+top: 5px;
+bottom: 60px;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 25px;
+    
+    transform: translate(-10px);
+    background: black;
+    transition: width 0.3s;
+    }
+    nav ul li a:hover::after{
+    width: 40px;
+    }
+
+#sabt{
+    width: 100%;
+    height: 190px;
+    margin:  0 auto;
+    background-image: url(../image/bookadmin.jpg);
+    background-repeat: no-repeat;
+
+  
+}
+
+#sabt h1{
+      margin-bottom: 20px;
+  padding-right: 50px;
+    color: aliceblue;
+   padding-top: 30px;
+   
+   
+}
+#profile{
+    background-color: rgba(3, 3, 125, 0.912);
+    padding: 5px;
+    height: 40px;
+}
+#profile a{
+   text-decoration: none;
+   font-size: 18px;
+   color: aliceblue;
+}
+#profile a:hover{
+    background-color: rgb(248, 11, 11);
+    padding: 5px;
+}
+#profile ul li{
+  
+ 
+  display:inline-block;
+  padding: 5px 10px;
+ 
+}
+.admin_main{
+    margin-top: 20px;
+    margin-right: 200px;
+   
+}
+p .textadd{
+   padding-top: 180px;
+}
+.admin_mainn{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+.admin_main .add_product input[type='text']{
+    width: 70%;
+    
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 5px;
+
+}
+.admin_main .add_product input[type='text']:focus{
+    border: 1px solid black;
+}
+.admin_main .add_product textarea{
+    width: 70%;
+    height: 120px;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid black;
+   
+   
+}
+
+.admin_main .add_product textarea:focus{
+    border: 1px solid rgb(0, 0, 0);
+}
+.admin_main select{
+    margin-top: 5px;
+    width: 60%;
+    padding: 10px;
+}
+.admin_main .add_product input[type='submit']{
+    padding: 10px;
+    margin-right: 40px;
+    background-color: rgb(77, 75, 76);
+    color: rgb(253, 251, 251);
+    border: none;
+    border-radius: 3px;
+    width: 500px;
+    margin-top: 10px;
+    
+}
+.admin_main .add_product input[type='submit']:hover{
+    background-color: brown;
+    cursor: pointer;
+
+}
+form .cat{
+  padding-right: 150px;
+  margin-top: 10800px;
+   
+}
+.admin_main8 .admin_comment{
+  margin-top: 20px;
+  color: aliceblue;
+}
+.admin_main8 .admin_comment hr{
+    padding-bottom: 5px;
+}
+.admin_main8 .admin_order{
+    margin-top: 50px;
+    width: 500px;
+}
+
+
+
+.admin_comment .comment_item{
+    background-color: rgb(246, 232, 120);
+    text-align: right;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid slategray;
+    margin-top: 5px;
+    color: black;
+    margin-left: 90px;
+}
+.admin_comment .comment_item .user_data{
+    font-weight: bold;
+    font-size: 20px;
+}
+.admin_comment .comment_item .comment_text{
+    padding: 10px;
+}
+.admin_comment .comment_item .button{
+    float: left;
+}
+.admin_comment .comment_item .button .config{
+    background-color: blue;
+    color: aliceblue;
+    padding: 3px 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.admin_comment .comment_item .button .config:hover{
+    background-color:rgb(5, 3, 100) ;
+}
+.admin_comment .comment_item .button .delet{
+    background-color: rgb(255, 0, 128);
+    color: aliceblue;
+    padding: 3px 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.admin_comment .comment_item .button .delet:hover{
+    background-color: darkmagenta;
+}
+.admin_order li a{
+    background-color: rgb(242, 100, 131);
+        padding: 20px;
+}
+
+
+
+.admin_mainproduct{
+    
+   margin-right: 20px;
+}
+table{
+    border-collapse: collapse;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+table  th,td{
+    border: 1px solid rgb(254, 254, 254);
+    padding: 10px 40px;
+    text-align: center;
+    color: aliceblue;
+  
+   
+}
+
+.admin_mainaddcategory{
+    margin-top: 20px;
+    margin-right: 200px;
+   
+}
+
+.admin_mainaddcategory .add_category input[type='text']{
+    width: 70%;
+    
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 5px;
+
+}
+.admin_mainaddcategory select{
+    margin-top: 5px;
+    width: 60%;
+    padding: 10px;
+}
+.admin_mainaddcategory label{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.admin_mainaddcategory input[type='submit']{
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+}
+.admin_mainaddcategory input[name='name_category']{
+    margin-right: 70px;
+
+}
+.admin_mainaddcategory .add_category input[type='submit']{
+    padding: 10px;
+    margin-right: 180px;
+    background-color: rgba(250, 6, 128, 0.907);
+    color: rgb(253, 251, 251);
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}

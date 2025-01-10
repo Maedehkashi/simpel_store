@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+   
+}
+
+
+#profile{
+    float: left;
+    width: 230px ;
+    height: 100%;
+   
+    background-color: rgb(3, 3, 89);
+    
+}
+#profile h1{
+    color: aliceblue;
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(46, 46, 145);
+    
+}
+#profile ul li a{
+    line-height: 50px;
+    font-size: 20px;
+    width: 79%;
+    height: 100%;
+    color: aliceblue;
+   
+    
+    border-top: 1px solid  rgb(46, 46, 145);
+    padding-left: 39px;
+    border-bottom: 1px solid  rgb(0, 0, 0);
+    transition: .5s;
+    
+}
+ul li:hover{
+    padding-left: 40px;
+}
+
+.admin_main{
+   
+   
+  float: right;
+}
+

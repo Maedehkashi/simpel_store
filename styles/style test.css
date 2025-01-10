@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  direction: rtl;
+  background-image: url(../image/buku-setiap-hari.jpg);
+  background-size: cover;
+ background-repeat: no-repeat;
+ height: 375px;
+}
+p{
+  width: 310px;
+  margin-top: 250px;
+  margin-right: 30px;
+  padding: 40px;
+  font-size: 30px;
+  color: rgb(242, 234, 234);
+  border-radius: 20px;
+  background-color: rgba(2, 2, 2, 0.678);
+}
+

@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+}
+body{
+    
+   
+    
+}
+.cont .header{
+    background-color: rgba(67, 66, 66, 0.822);
+    color: blanchedalmond;
+    min-height: 49px;
+    padding-top: 5px;
+    font-size: 16px;
+   
+    border-bottom: 5px solid black;
+    
+ }
+ul{
+    padding: 0;
+    margin: 0;
+}
+.cont.header{
+   background-color: rgba(67, 66, 66, 0.822);
+   color: blanchedalmond;
+   min-height: 49px;
+   padding-top: 5px;
+   font-size: 16px;
+  
+   border-bottom: 5px solid black;
+   
+}
+
+.header li {
+    display: inline;
+    padding: 10px 10px;
+    float:right;
+   
+    
+}
+.nav li{
+    float: right;
+    
+}
+.header .logo img{
+    width: 65px;
+    height: 44px;
+   margin-bottom: 10px;
+   padding-left: 10px;
+    float: left;
+   
+
+}
+
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.header a:hover{
+   
+    background-color: rgba(245, 5, 97, 0.6);
+   border-radius: 5px;
+   padding: 5px;
+  
+}
+.container{
+    background-image: url(../image/Untitled-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width: 1007px;
+    height: 588px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.container img{
+ width: 371px;
+ height: 350px;   
+ margin-left: 20px;
+ 
+ 
+}
+
+.item{
+    background-color: rgba(230, 94, 94, 0.832);
+    color: azure;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    padding-left: 130px;
+    margin-right: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+.text input[type='text'],textarea{
+    background-color: aliceblue;
+    color: black;
+    line-height: 10px;
+   margin: 10px 50px;
+    
+    opacity: 0;
+    height: 0;
+
+
+}
+
+.ertebat:target .text input[type='text'] {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    padding-left: 140px;
+    margin: 10px 50px;
+   
+}
+.ertebat:target .text textarea{
+    height: auto;
+    opacity: 1;
+    padding: 30px;
+   padding-left: 150px;
+   margin: 10px 50px;
+    text-align: right;
+
+}
+form input[type='submit']{
+    padding: 10px 20px;
+    margin-left: 159px;
+    background-color: rgba(231, 95, 95, 0.822);
+    color: aliceblue;
+
+}
+form input[type='submit']:hover{
+    background-color: crimson;
+}
+.icon{
+    width: 20px;
+    height: 120px;
+    margin-left: 20px;
+    padding-left: 18px;
+    margin-top: 420px;
+    font-size: 25px;
+    color: aliceblue;
+    
+    
+}
+ i{
+    cursor: pointer;
+    padding-top: 15px;
+    
+}
+ i:nth-child(1){
+    text-shadow: 0 0 50px rgb(255, 0, 0) , 0 0 10px rgb(255, 0, 0);
+    
+}
+.icon h4{
+    opacity: 0;
+    font-size: 16px;
+}
+ 
+.icon i:nth-child(3){
+    text-shadow: 0 0 50px rgb(255, 238, 0) , 0  0  10px rgb(255, 204, 0);
+}
+i:hover{
+    transform: scale(1.2);
+   
+   
+}
+i:hover h4{
+    opacity: 1;
+}
+p{
+    width: 250px;
+    background-color: rgba(230, 94, 94, 0.6);
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    color: aliceblue;
+    font-weight: 20px;
+
+}
+
+
+
+
